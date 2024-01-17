@@ -32,6 +32,7 @@ function App() {
 
   return (
     <>
+      <h1 className='w-full max-w-md rounded-md shadow-sm px-4 py-2 bg-purple-300 text-white font-mono'> IG: Kartikeyy.m</h1>
       <div className='w-full max-w-md rounded-xl shadow-sm px-4 py-2 text-orange-700 bg-red-300 '>
       <h2 className='my-3 text-black ' >Password generator</h2>
       <div className=' flex shadow rounded-lg overflow-hidden  mb-4'>
