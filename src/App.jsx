@@ -1,5 +1,4 @@
 import { useCallback, useState, useEffect, useRef } from 'react'
-import './App.css'
 
 function App() {
   const [length, setLength] = useState(4)
@@ -33,7 +32,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full max-w-md rounded-xl shadow-sm px-4 py-2 text-orange-700 bg-red-300'>
+      <div className='w-full max-w-md rounded-xl shadow-sm px-4 py-2 text-orange-700 bg-red-300 '>
       <h2 className='my-3 text-black ' >Password generator</h2>
       <div className=' flex shadow rounded-lg overflow-hidden  mb-4'>
           <input type="text" 
